@@ -1,0 +1,71 @@
+body {
+    background: #12ae607d;
+    position: relative;
+    bottom: 50px;
+}
+
+#container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    padding: 10px 60px;
+    margin: 40px;
+    gap: 20px;
+}
+
+#container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 700px;
+    top: 140px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 60px;
+    width: 400px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+#container2-button {
+    position: relative;
+    top: 100px;
+    right: 125px;
+}
+
+textarea {
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1.5);
+    margin-bottom: 70px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+
+
+}
+
+label {
+    font-family: serif;
+    color: black;
+    transform: scale(1.5);
+    position: relative;
+    ;
+}
+
+@media (max-width: 600px) {
+
+    #plainInput1,
+    #encryptedinput1 {
+        width: 90%;
+        height: 30px;
+        flex-direction: column;
+        gap: 6px;
+        padding: 5px;
+    }
+}
